@@ -1,0 +1,50 @@
+name: flutter_application_1
+description: "A new Flutter project."
+
+# Evita la publicación accidental del paquete
+publish_to: 'none' # Elimina esta línea si deseas publicar en pub.dev
+
+# Versión y número de compilación para la aplicación
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # La siguiente línea agrega los íconos de Cupertino para iOS
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # Lints recomendados para un mejor desarrollo
+  flutter_lints: ^4.0.0
+
+flutter:
+  # Incluir los iconos de Material Design
+  uses-material-design: true
+
+  # Sección para agregar los assets (imágenes, logos, etc.)
+  assets:
+    - assets/images/burger.png
+    - assets/images/pizza.png
+    - assets/images/hotdog.png
+    - assets/images/fries.png
+    - assets/images/logo.png # Aquí agregamos el logo para la pantalla de bienvenida
+
+  # Si deseas agregar fuentes personalizadas, puedes hacerlo aquí
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
